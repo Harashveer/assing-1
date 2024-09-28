@@ -1,0 +1,108 @@
+html
+{
+    scroll-behavior: smooth;
+}
+body
+{
+    margin: 0;
+    
+}
+main
+{
+  background-color: black;
+}
+header
+{
+    display: flex;
+    height: 125px;
+    align-items: center;
+    padding: 0 10px;
+}
+header >div
+{
+    width: auto;
+    height: 110px;
+    flex-grow: 1;
+}
+header>div>a>img
+{
+    width: auto;
+    height: 100%;
+}
+header menu
+{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    list-style: none;
+
+}
+header>nav>menu>li
+{
+    float: left;
+    padding: 0px 10px;
+}
+/* first I was typing the title myself  and it was suppose to look lik this:
+
+        unaccodating 
+                  by
+                   Eminem
+
+but I found the perfect image with the movie title so I scratched this idea but I am still leaving its css in the next commented out section
+
+*/
+/* .songTitle
+{
+  text-align: center;
+}
+h1 
+{
+  margin-right: 120px; 
+}
+.songTitle>p
+{
+  font-size: 20px;
+  margin-left: 75px;
+}
+.songTitle>h2
+{
+  margin-left: 160px;
+} */
+ .songTitle
+ {
+  background-color: black;
+ }
+.songTitle>div>a>img
+{
+  height: 85vh;
+  width: 100%;
+}
+main section div h2
+{
+  text-align: center;
+  font-family: "Edu AU VIC WA NT Dots", cursive;
+  color: red;
+}
+main section div h3
+{
+  text-align: center;
+  margin-bottom: 30px; 
+  font-family: "Edu AU VIC WA NT Dots", cursive;
+  color: red;
+}
+main section div p
+{
+  font-size: 24px;
+  color:aliceblue;
+   /* font-family: 'Swamp Thing', sans-serif;  */ /*I wanted to use this font but it was way too creepy and painful to look at*/
+   font-family: 'Wilderness', sans-serif;
+                                                                                              
+}
+/* all the swear words and cuss are of different font*/
+/* at first I wanted to use the font called grawlix(It just censor everything) but then I thought it would be better if they stand out */
+.profanity
+{
+  font-size: 45px;
+  font-family:'Feast of Flesh BB', sans-serif;
+}
+/* I also wanted to use different font on specific words such as suicide or kamikaze but I started making it one hour before due date and now its 11:45pm so I lost on time*/
